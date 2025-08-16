@@ -1,0 +1,47 @@
+* {
+  padding: 0%;
+  margin: 0;
+}
+.role {
+  background-color: #f0f2f5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+Button {
+  height: 120px;
+  width: 120px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.driverprofile {
+  background-color: #f0f2f5;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
+  margin: 10px;
+}
+.profileicon {
+  cursor: pointer;
+  margin-top: 8px;
+}
