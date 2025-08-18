@@ -32,32 +32,6 @@ const BookingList = () => {
       });
   };
   return (
-    // <div>
-    //   <h2>All Driver Bookings</h2>
-    //   <table border="1">
-    //     <thead>
-    //       <tr>
-    //         <th>Booking ID</th>
-    //         <th>Customer ID</th>
-    //         <th>Driver ID</th>
-    //         <th>Hours</th>
-    //         <th>Total Fare</th>
-    //       </tr>
-    //     </thead>
-    //     <tbody>
-    //       {orders.map((order) => (
-    //         <tr key={order.id}>
-    //           <td>{order.bookingid}</td>
-    //           <td></td>
-    //           <td>{order.customerId}</td>
-    //           <td>{order.driverId}</td>
-    //           <td>{order.hours}</td>
-    //           <td>{order.totalamount}</td>
-    //         </tr>
-    //       ))}
-    //     </tbody>
-    //   </table>
-    // </div>
     <div style={{ padding: "20px" }}>
       <h2 style={{ textAlign: "center" }}>All Drivers</h2>
       <div
